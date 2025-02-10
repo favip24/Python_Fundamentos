@@ -145,3 +145,20 @@ nueva_despedida = saludo2.replace("Buenos días", "Adiós, un abrazo!")
 print(nuevo_saludo)
 print(nueva_despedida)
 print()
+
+# Extraer Subcadenas por separadores con el Método Split
+# Divide en una lista, por eso va entre []
+# Sintaxis: lista = cadena.split(',')
+cadena_sp = "Patricio Fontanet, 40, Argentina"
+cadena_sp2 = "Patricio Rogelio Santos Fontantet"
+lista = cadena_sp.split(",")
+lista2 = cadena_sp2.split()
+print(lista)  # Separa elementos por coma
+print(lista2)  # Por default, separa cada elemento por espacio en blanco
+print()
+
+# Multiplicador de Cadenas
+veces = 4
+resultado = hola * veces
+print(resultado)
+print()
