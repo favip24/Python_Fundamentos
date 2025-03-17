@@ -2,6 +2,7 @@ print("# Sistema Reserva Cupos Carrera #")
 print()
 
 # Datos del Alumno
+ID = 564
 nombre_alumno = "Guadalupe Cuper"
 edad = 20
 dni = 45089736
@@ -11,6 +12,7 @@ tiene_analitico = True
 direccion = None
 
 # Imprimimos Valores
+print("Identificador:", ID)
 print("Nombre Completo:", nombre_alumno)
 print("Edad:", edad)
 print("D.N.I:", dni)

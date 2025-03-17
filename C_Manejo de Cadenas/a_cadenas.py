@@ -1,56 +1,6 @@
-# Primer programa de "Hola Mundo" con Python.
-print("Hola Mundo")
-print("Saludos")
-print()  # Print vacío para mejor legibilidad.
-
-# Presentación.
-print("Hola, soy Favio Palermo")
-print("Tengo 25 años")
-print("Soy de Córdoba, Argentina.")
-print()
-
-# Variables.
-# Sintaxis: nombreVariable = valor
-# Las Variables deben definirse y asignarles un valor (obligatorio).
-nombre = "Mateo"  # Cadena de Texto, pueden inicializarce con comillas "" o ''.
-edad = 19  # Dato de tip Entero tipo Int.
-peso = 80.5  # Dato de punto flotante, Double o Float.
-pais = "Argentina"
-es_casado = False  # Tipo Boolean, se escriben la 'F' o 'T' con mayúsculas.
-carrera = None  # Ausencia de valor.
-
-# Imprimimos las Variables en consola.
-print("Mi nombre es", nombre)  # Python agrega un espacio al separar con coma.
-print("Tengo", edad, "Años")
-print("Actualmente estoy pesando", peso, "Kg.")
-print("Vivo en", pais)
-print("Soy Casado?", es_casado)
-print("Qué Estudia?", carrera)
-print()
-
-# Modificar los Valores de las Variables.
-edad = 21  # Misma Sintaxis con distinto valor.
-peso = 91.5  # Se sobrescriben los valores perdiendo el anterior.
-
-# Valores Modificados.
-print(edad)
-print(peso)
-print()
-
-# Python es dinámico, puede almacenar cualquier dato en cualquier variable.
-altura = "Un Metro Ochenta"
-print(altura)
-print()
-
-# Constantes.
-# Sintaxis: NOMBRE_VARIABLE = valor
-PI = 3.14159
-NOMBRE_BASE_DATOS = "clientes_db"
-print(PI)
-print(NOMBRE_BASE_DATOS)
-print()
-
 # Manejo de Cadenas.
+nombre = "Favio"
+edad = 25
 cadena1 = "¡Hola y Bienvenidos!"
 cadena1 = "¡Adiós, Vuelva Pronto!"
 cadena2 = 'Cómo lo ayudo?'
@@ -100,7 +50,7 @@ print()
 
 # Formateo de Cadenas.
 # f-string
-# Las últimas variables eran n=Mateo y e=21
+
 formateo_cadenas = f"Hola, me llamo {nombre} y tengo {edad} años."
 print(formateo_cadenas)
 print()
