@@ -26,6 +26,7 @@ es_soltero = True
 discapacidad = None
 
 # Imprimimos las Variables en consola
+print("Variables")
 print("Mi nombre es", nombre)  # Python agrega un espacio al separar con coma
 print("Tengo", edad, "Años")
 print("Actualmente estoy pesando", peso, "Kg.")
@@ -40,6 +41,7 @@ edad = 21  # Misma Sintaxis con distinto valor
 peso = 91.5  # Se sobrescriben los valores perdiendo el anterior
 
 # Valores Modificados
+print("Modificamos Variables")
 print(edad)
 print(peso)
 print()
@@ -55,6 +57,7 @@ print()
 # Sintaxis: NOMBRE_VARIABLE = valor
 PI = 3.14159
 NOMBRE_BASE_DATOS = "clientes_db"
+print("CONSTANTES")
 print(PI)
 print(NOMBRE_BASE_DATOS)
 print()
