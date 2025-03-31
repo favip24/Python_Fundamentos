@@ -38,8 +38,9 @@ print(saludo2)
 print()
 
 # Caracteres Especiales
-print("Cómo \nandas?")  # \n: Salto de línea.
-print("\t Python es God")  # \t: Tab inicial.
+print("Caracteres Especiales")
+print("Salto de Línea: Cómo \nandas?")  # \n: Salto de línea.
+print("Tab Inicial: \t Python es God")  # \t: Tab inicial.
 print("Desire\" Cuper")  # "\: Permite "" dentro de una Cadena.
 print("\\")  # "\": Incluye '\' como caracter especial.
 print()
