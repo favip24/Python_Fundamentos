@@ -4,3 +4,4 @@
 - Presentacion con Nombre, Edad y País
 - Variables
 - Entrada de Datos
+- Operadores

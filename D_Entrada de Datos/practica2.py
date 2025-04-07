@@ -9,7 +9,7 @@ edad = int(input("Ingrese su edad: "))
 ciudad = input("Ingrese su ciudad: ")
 
 mensaje_completo = f'Bienvenido {nombre}, gracias por registrarse!'
-mensaje_completo2 = f'Usted tiene {edad}, por lo que el próximo año tendrá {edad + 1}!'
+mensaje_completo2 = f'Usted tiene {edad}, \npor lo que el próximo año tendrá {edad + 1}!'
 mensaje_completo3 = f'Usted actualmente vive en {ciudad}!'
 
 print(mensaje_completo)
